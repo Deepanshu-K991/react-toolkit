@@ -1,8 +1,11 @@
-
+import Print from "./Sample.js"
 
 function App() {
   return (
-   <h1>my first react file</h1>
+    <>
+    <Print/>
+   {/* <h1>my first react file</h1> */}
+    </>
   );
 }
 

@@ -1,7 +1,11 @@
+import Print from "./assets/sample.jsx"
 function App() {
-
+const username = "deepanshu"
   return (
-    <h1>learning react</h1>
+    <>
+    <Print/>
+    <h1> hello my name is {username}</h1>
+    </>
   )
 }
 
